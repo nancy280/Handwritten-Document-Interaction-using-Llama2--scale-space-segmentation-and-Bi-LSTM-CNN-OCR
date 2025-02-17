@@ -4,7 +4,6 @@ Here's your **README.md** file in the correct format, so you can **copy and past
 
 ### 📄 **README.md**  
 
-```md
 # 🤖 AI-Powered Document-Based Question Answering System  
 
 ![Project Workflow](./assets/workflow.png)  
@@ -25,7 +24,6 @@ Below is the block diagram representing the workflow:
 
 ## 📂 Repository Structure  
 
-```
 📦 project_root  
 │-- 📂 assets/                 # Stores images & documentation  
 │-- 📂 data/                   # Input documents  
@@ -39,7 +37,6 @@ Below is the block diagram representing the workflow:
 │-- 📜 output.pdf              # Sample output document  
 │-- 📜 .gitignore              # Git ignore file  
 │-- 📜 README.md               # Documentation  
-```
 
 ## 🛠 Installation & Setup  
 
@@ -89,8 +86,6 @@ This project is licensed under the **MIT License**.
 ---
 
 🚀 **Happy Coding!** 💡  
-```
-
 ---
 
 ### 🔹 **Instructions for Usage:**  
