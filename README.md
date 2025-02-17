@@ -69,8 +69,7 @@ python app.py
 ### 🔹 File Upload  
 ![File Upload](./assets/upload.png)  
 
-### 🔹 Text transcribed by OCR with minor
-errors 
+### 🔹 Text transcribed by OCR with minor errors 
 ![text transcribed by OCR with minor
 errors](./assets/upload2.png)  
 
