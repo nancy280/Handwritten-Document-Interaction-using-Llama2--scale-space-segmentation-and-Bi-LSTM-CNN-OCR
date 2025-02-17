@@ -1,12 +1,4 @@
-Here's your **README.md** file in the correct format, so you can **copy and paste it directly** into your repository. 🚀  
-
----
-
-### 📄 **README.md**  
-
 # 🤖 AI-Powered Document-Based Question Answering System  
-
-![Project Workflow](./assets/workflow.png)  
 
 ## 📌 Overview  
 This project is an AI-powered **document-based question-answering system** that allows users to upload files, process text into embeddings, and retrieve relevant responses using **ConversationalRetrievalChain** and **Llama2 (CTransformers)**. It leverages **FAISS** for efficient similarity search and retrieval.  
@@ -20,7 +12,10 @@ This project is an AI-powered **document-based question-answering system** that 
 ## 🏗 System Architecture  
 Below is the block diagram representing the workflow:  
 
-![System Architecture](./assets/architecture.png)  
+### 🔹 Handwritten Text Recognition
+![Handwritten Text Recognition](./assets/arc.png)  
+### 🔹 Handwritten Document Interpretation Using Llama2
+![Handwritten Document Interpretation Using Llama2](./assets/arc2.png)  
 
 ## 📂 Repository Structure  
 
@@ -74,23 +69,17 @@ python app.py
 ### 🔹 File Upload  
 ![File Upload](./assets/upload.png)  
 
+### 🔹 Text transcribed by OCR with minor
+errors 
+![text transcribed by OCR with minor
+errors](./assets/upload2.png)  
+
+### 🔹 Output from the model stored in a PDF format 
+![Output from the model stored in a PDF format](./assets/output.png)  
+
 ### 🔹 Response Generation  
 ![Response](./assets/response.png)  
 
 ## 🤝 Contributing  
 Contributions are welcome! Please open an issue or submit a pull request.  
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
-
----
-
-🚀 **Happy Coding!** 💡  
----
-
-### 🔹 **Instructions for Usage:**  
-- **Replace placeholders** like `your_username/your_repository` with your actual **GitHub repo URL**.  
-- **Ensure** images (`workflow.png`, `architecture.png`, `upload.png`, `response.png`) are in the `assets/` folder.  
-- **This is the correct format** for a Markdown README file (`README.md`) that GitHub will render properly.  
-
-**Now, just copy-paste it into your `README.md` file, and you're good to go!** 🚀🔥
