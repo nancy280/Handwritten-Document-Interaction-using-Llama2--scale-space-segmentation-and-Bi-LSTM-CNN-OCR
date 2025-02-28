@@ -452,6 +452,7 @@ def load(files):
 
     # Download Sentence Transformers Embedding From Hugging Face
     embeddings = HuggingFaceEmbeddings(model_name = 'sentence-transformers/all-MiniLM-L6-v2')
+    #It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search.
     # COnverting the text Chunks into embeddings and saving the embeddings into FAISS Knowledge Base
     docsearch = FAISS.from_documents(text_chunks, embeddings)
     docsearch.save_local(DB_FAISS_PATH)# saving the embedding locally on the system
